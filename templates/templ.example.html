@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Webpage</title>
+</head>
+<body>
+    <ul id="navigation">
+	    navigation = [{"href": "http://example.com", "caption": "just an example site"}]
+
+    {% for item in navigation %}
+        <li><a href="{{ item.href }}">{{ item.caption }}</a></li>
+    {% endfor %}
+    </ul>
+
+    <h1>My Webpage</h1>
+    a_variable = "Welcome to My Webpage"
+    {{ a_variable }}
+
+
+</body>
+</html>
