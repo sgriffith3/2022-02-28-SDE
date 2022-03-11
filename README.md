@@ -12,7 +12,7 @@ Python Examples
 - [Sarah](https://github.com/slichy6/pythonpractice/tree/main/advgame)
 - [Luxi](https://github.com/luximeng/RealEstateBuyerOfferInputForm)
 - [David](https://github.com/dledesm97/pythonProject)
-- [Percell](https://github.com/Pgaskins/python_project.git)
+- [Percell](https://github.com/Pgaskins/pycoin_project)
 - [Vernon](https://github.com/Blackxican93/SA_Travel/tree/main)
 - [Justin](https://github.com/justinmsuen/pythonproject-tlg-js.git)
 - [Timothy](https://github.com/Timothyolo/SDEpythonproject)
