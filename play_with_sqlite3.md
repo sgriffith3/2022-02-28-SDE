@@ -17,6 +17,8 @@
 
     `>` `CREATE TABLE COMPANY (NAME TEXT NOT NULL, AGE INT NOT NULL, ADDRESS CHAR(50), SALARY REAL);`
     
+    > NOTE: This is slightly different than the lab, because we removed the need of the ID - sqlite3 actually automatically generates a numeric primary key for each entry.
+    
 0. Get tables again. 
 
     `>` `.tables`
