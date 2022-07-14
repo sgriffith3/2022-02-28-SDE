@@ -108,8 +108,8 @@ with ThreadPoolExecutor(max_workers=5) as executor:
         processes.append(executor.submit(launch_firework, fw))   # add a new task to the threadpool and store in processes list
 
 
-for task in as_completed(processes):    # yields the items in processes as they complete (it finished or was canceled)
-    print(task.result().text)
+    for task in as_completed(processes):    # yields the items in processes as they complete (it finished or was canceled)
+        print(task.result().text)
 
 # display the total run time
 print(f'Time taken: {time.time() - start}')
